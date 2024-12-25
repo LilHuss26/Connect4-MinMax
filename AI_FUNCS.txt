@@ -1,0 +1,18 @@
+Modified Changes:
+    * Fixing AI:
+       1- change peices name & player names
+       2- move the AI turn outside the loop
+       3- update the board & turns one more time 
+       4- wait time before AI move
+
+    * get_valid_locations: 1- Checks for every available col in board
+                           2- Create valid_locations list     
+
+    *score_position:     Return where is the best (score), [diagonal, horizential, vertical]
+
+    *evaluate_window:    Checks the score based in counting +++ when it passed to score_position it uses in the desired direction
+    
+    *Minimax function:    
+
+
+
